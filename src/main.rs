@@ -32,4 +32,8 @@ fn main() {
             }
         }
     }
+
+    println!("\nPress enter to exit.");
+
+    io::stdin().read_line(&mut String::new()).expect("Failed to read line");
 }
